@@ -1,0 +1,441 @@
+{%load static%}
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>DocPersonalPage</title>
+   
+   
+   
+   <link rel="stylesheet" href="{%static '/css/DocPersonalSty.css'%}">
+   <link rel="stylesheet" href="{%static '/css/templatemo-lava.css'%}">
+   
+
+
+	
+	
+
+
+   
+   
+   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+</head>
+
+<body>
+   <!-- ***** Preloader Start ***** -->
+   <div id="preloader">
+      <div class="jumper">
+         <div></div>
+         <div></div>
+         <div></div>
+      </div>
+   </div>
+   <!-- ***** Preloader End ***** -->
+
+
+
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+      <div class="container">
+          <div class="row">
+              <div class="col-12">
+                  <nav class="main-nav">
+                      <!-- ***** Logo Start ***** -->
+                      <a href="{%url 'home-page'%}" class="logo" style="margin-left: 165px;">
+                          PETCY
+                      </a>
+                      <!-- ***** Logo End ***** -->
+                      <!-- ***** Menu Start ***** -->
+                      <ul class="nav" style="margin-left: 100px;">
+                          <li style="margin-left: 63px;" class="scroll-to-section"><a href="{%url 'home-page'%}">Home</a></li>
+
+                          <li class="scroll-to-section"><a href="{%url 'home-page'%}">About Us</a>
+                          </li>
+                          <li class="submenu">
+                              <a href="{%url 'cat'%}">Pet </a>
+                              <ul>
+                                  <li><a href="{%url 'cat'%}"> Permanent adoption </a></li>
+                                  <li><a href="{%url 'catTakecare'%}"> Temporary adoption</a></li>
+                              </ul>
+                          </li>
+                          <li class="submenu">
+                              <a href="{%url 'signup'%}">Register </a>
+                              <ul>
+                                  <li><a href="{%url 'login'%}">Log in <i class="fa fa-user-plus "></i></a></li>
+                                  <li><a href="{%url 'signup'%}">Sign up <i class="fa fa-sign-in-alt "></i></a></li>
+                              </ul>
+                          </li>
+                          <li class="scroll-to-section"><a href="{%url 'vet'%}">veterinarians</a> </li>
+                          <li class="scroll-to-section"><a href="{%url 'home-page'%}">Contact Us</a></li>
+                      </ul>
+                      <a class='menu-trigger'>
+                          <span>Menu</span>
+                      </a>
+                      <!-- ***** Menu End ***** -->
+                  </nav>
+              </div>
+          </div>
+      </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+
+   <br>
+   <br>
+   <br>
+
+   <div class="containerD">
+      <div class="row">
+         <div class="col-md-12">
+            <div id="content" class="content content-full-width">
+               <!-- begin profile -->
+               <div class="profile">
+                  <div class="profile-header">
+                     <!-- BEGIN profile-header-cover -->
+                     <div class="profile-header-cover"></div>
+                     <!-- END profile-header-cover -->
+                     <!-- BEGIN profile-header-content -->
+                     <div class="profile-header-content">
+                        <div class="back">
+                           <a href="{%url 'vet'%}"><i class="fa fa-arrow-circle-left"></i> back to veterinarians list </a>
+                           <button class="FB"> follow <i class="fas fa-user-plus"></i></button>
+                        </div>
+
+
+                        <table class="info">
+                           <!-- BEGIN profile-header-img -->
+                           <tr>
+                              <th> </th>
+                              <th>
+                                 <h4 class="m-t-10 m-b-5"
+                                    style=" color: #FC3; text-shadow: 2px 2px 2px rgba(250, 250, 248, 0.863);">Lloyd
+                                    Wilson</h4>
+                              </th>
+                              <th> </th>
+                           </tr>
+                           <tr>
+                              <th> </th>
+                              <th><img src="{%static '/images/dr1.jpg'%}" alt="" style="height: 150px; width: 120px;"> </th>
+                              <th> </th>
+                           </tr>
+                           <tr>
+                              <th> </th>
+                              <th>
+                                 <p class="m-b-10" style="color:#500f2d">Pet Health veterinary</p>
+                              </th>
+                              <th> </th>
+                           </tr>
+                           <tr>
+                              <th>
+                                 <p class="icon" style="text-align: center;"><i class="fas fa-users"></i> 10k followers
+                                 </p>
+                              </th>
+                              <th>
+                                 <p class="icon"><i class="fa fa-tag "></i> 4573LW2 </p>
+                              </th>
+                              <th>
+                                 <p class="icon"><i class="fa fa-comments "> </i> Ask for help</p>
+                              </th>
+                           </tr>
+                        </table>
+
+                        <!-- END profile-header-info -->
+                     </div>
+                     <div>
+
+                     </div>
+                     <!-- END profile-header-content -->
+                  </div>
+               </div>
+
+               <!-- end profile -->
+               <!-- begin profile-content -->
+               <div class="profile-content">
+                  <!-- begin tab-content -->
+                  <div class="tab-content p-0">
+                     <!-- begin #profile-post tab -->
+                     <div class="tab-pane fade active show" id="profile-post">
+                        <!-- begin timeline -->
+                        <ul class="timeline">
+                           <li>
+                              <!-- begin timeline-time -->
+                              <div class="timeline-time">
+                                 <span class="date">today</span>
+                                 <span class="time">04:20</span>
+                              </div>
+                              <!-- end timeline-time -->
+                              <!-- begin timeline-icon -->
+                              <div class="timeline-icon">
+                                 <a href="javascript:;">&nbsp;</a>
+                              </div>
+                              <!-- end timeline-icon -->
+                              <!-- begin timeline-body -->
+                              <div class="timeline-body">
+                                 <div class="timeline-header">
+                                    <span class="userimage"><img src="{%static '/images/dr1.jpg'%}" alt=""></span>
+                                    <span class="username"><a href="javascript:;">Lloyd Wilson</a>
+                                       <small></small></span>
+                                    <span class="pull-right text-muted">18 Views</span>
+                                 </div>
+                                 <div class="timeline-content">
+                                    <p>
+                                       If you suspect your cat has FeLV, it's best to speak to your vet. They'll perform
+                                       a test to detect the virus in the blood. Unfortunately there is no current
+                                       reliable treatment for FeLV. Each vet will treat a FeLV-positive cat
+                                       individually, depending on the signs they develop. Sadly, the outlook is likely
+                                       to be poor.
+
+                                       Keep infected cats inside and ensure they are fully vaccinated to protect them
+                                       against other infectious diseases. Unfortunately, many affected cats have to be
+                                       euthanased because they have a poor quality of life. If you're having to make the
+                                       sad decision to euthanase your cat,
+                                    </p>
+                                 </div>
+                                 <div class="timeline-likes">
+                                    <div class="stats-right">
+                                       <span class="stats-text">259 Shares</span>
+                                       <span class="stats-text">21 add this article to read list</span>
+                                    </div>
+                                    <div class="stats">
+                                       <span class="fa-stack fa-fw stats-icon">
+                                          <i class="fa fa-heart fa-stack-1x fa-inverse t-plus-1"
+                                             style="color: red;"></i>
+                                       </span>
+                                       <span class="fa-stack fa-fw stats-icon">
+                                          <i class="fa fa-thumbs-up fa-stack-1x fa-inverse" style="color: gray;"></i>
+                                       </span>
+                                       <span class="stats-total">4.3k</span>
+                                    </div>
+                                 </div>
+                                 <div class="timeline-footer">
+                                    <a href="javascript:;" class="m-r-15 text-inverse-lighter"><i
+                                          class="fa fa-thumbs-up "></i> Like</a>
+                                    <a href="javascript:;" class="m-r-15 text-inverse-lighter"><i
+                                          class="fa fa-list "></i>add to read list</a>
+                                    <a href="javascript:;" class="m-r-15 text-inverse-lighter"><i
+                                          class="fa fa-share "></i> Share</a>
+                                 </div>
+                              </div>
+                              <!-- end timeline-body -->
+                           </li>
+                           <li>
+                              <!-- begin timeline-time -->
+                              <div class="timeline-time">
+                                 <span class="date">yesterday</span>
+                                 <span class="time">20:17</span>
+                              </div>
+                              <!-- end timeline-time -->
+                              <!-- begin timeline-icon -->
+                              <div class="timeline-icon">
+                                 <a href="javascript:;">&nbsp;</a>
+                              </div>
+                              <!-- end timeline-icon -->
+                              <!-- begin timeline-body -->
+                              <div class="timeline-body">
+                                 <div class="timeline-header">
+                                    <span class="userimage"><img src="{%static '/images/dr1.jpg'%}" alt=""></span>
+                                    <span class="username">Lloyd Wilson</span>
+                                    <span class="pull-right text-muted">82 Views</span>
+                                 </div>
+                                 <div class="timeline-content">
+                                    <p>Even healthy cats need a visit to the vet. To help identify early signs of common
+                                       illnesses but also to aid disease prevention, it is advised that all cats have a
+                                       vet check at least once a year.
+                                       If you have noticed any unusual symptoms in your cat, from coughing and sneezing
+                                       to runny eyes, vomiting, diarrhoea or changes
+                                       in behaviour or eating and drinking habits, it is important you let your vet
+                                       know.</p>
+                                 </div>
+                                 <div class="timeline-likes">
+                                    <div class="stats-right">
+                                       <span class="stats-text">21 Shares</span>
+                                       <span class="stats-text">29 add this article to read list</span>
+                                    </div>
+                                    <div class="stats">
+                                       <span class="fa-stack fa-fw stats-icon">
+                                          <i class="fa fa-heart fa-stack-1x fa-inverse t-plus-1"
+                                             style="color: red;"></i>
+                                       </span>
+                                       <span class="fa-stack fa-fw stats-icon">
+                                          <i class="fa fa-thumbs-up fa-stack-1x fa-inverse" style="color: gray;"></i>
+                                       </span>
+                                       <span class="stats-total">4.3k</span>
+                                    </div>
+                                 </div>
+                                 <div class="timeline-footer">
+                                    <a href="javascript:;" class="m-r-15 text-inverse-lighter"><i
+                                          class="fa fa-thumbs-up "></i> Like</a>
+                                    <a href="javascript:;" class="m-r-15 text-inverse-lighter"><i
+                                          class="fa fa-list "></i>add to read list</a>
+                                    <a href="javascript:;" class="m-r-15 text-inverse-lighter"><i
+                                          class="fa fa-share "></i> Share</a>
+                                 </div>
+                              </div>
+                              <!-- end timeline-body -->
+                           </li>
+                           <li>
+                              <!-- begin timeline-time -->
+                              <div class="timeline-time">
+                                 <span class="date">27 march 2021</span>
+                                 <span class="time">08:17</span>
+                              </div>
+                              <!-- end timeline-time -->
+                              <!-- begin timeline-icon -->
+                              <div class="timeline-icon">
+                                 <a href="javascript:;">&nbsp;</a>
+                              </div>
+                              <!-- end timeline-icon -->
+                              <!-- begin timeline-body -->
+                              <div class="timeline-body">
+                                 <div class="timeline-header">
+                                    <span class="userimage"><img src="{%static '/images/dr1.jpg'%}" alt=""></span>
+                                    <span class="username">Lloyd Wilson</span>
+                                    <span class="pull-right text-muted">1,282 Views</span>
+                                 </div>
+                                 <div class="timeline-content">
+                                    <p class="lead">
+                                       <i class="fa fa-quote-left fa-fw pull-left"></i>
+                                       For some, being a vet was a means to make a living. For Theo, helping animals was
+                                       a photo of his soul, the coat of his will.
+                                       <i class="fa fa-quote-right fa-fw pull-right"></i>
+                                    </p>
+                                 </div>
+                                 <div class="timeline-likes">
+                                    <div class="stats-right">
+                                       <span class="stats-text">100 Shares</span>
+                                       <span class="stats-text">59 add this article to read list</span>
+                                    </div>
+                                    <div class="stats">
+                                       <span class="fa-stack fa-fw stats-icon">
+                                          <i class="fa fa-heart fa-stack-1x fa-inverse t-plus-1"
+                                             style="color: red;"></i>
+                                       </span>
+                                       <span class="fa-stack fa-fw stats-icon">
+                                          <i class="fa fa-thumbs-up fa-stack-1x fa-inverse" style="color: gray;"></i>
+                                       </span>
+                                       <span class="stats-total">4.3k</span>
+                                    </div>
+                                 </div>
+                                 <div class="timeline-footer">
+                                    <a href="javascript:;" class="m-r-15 text-inverse-lighter"><i
+                                          class="fa fa-thumbs-up "></i> Like</a>
+                                    <a href="javascript:;" class="m-r-15 text-inverse-lighter"><i
+                                          class="fa fa-list "></i>add to read list</a>
+                                    <a href="javascript:;" class="m-r-15 text-inverse-lighter"><i
+                                          class="fa fa-share "></i> Share</a>
+                                 </div>
+                              </div>
+                              <!-- end timeline-body -->
+                           </li>
+                           <li>
+                              <!-- begin timeline-time -->
+                              <div class="timeline-time">
+                                 <span class="date">10 January 2021</span>
+                                 <span class="time">20:43</span>
+                              </div>
+                              <!-- end timeline-time -->
+                              <!-- begin timeline-icon -->
+                              <div class="timeline-icon">
+                                 <a href="javascript:;">&nbsp;</a>
+                              </div>
+                              <!-- end timeline-icon -->
+                              <!-- begin timeline-body -->
+                              <div class="timeline-body">
+                                 <div class="timeline-header">
+                                    <span class="userimage"><img src="{%static '/images/dr1.jpg'%}" alt=""></span>
+                                    <span class="username">Lloyd Wilson</span>
+                                    <span class="pull-right text-muted">1,021,282 Views</span>
+                                 </div>
+                                 <div class="timeline-content">
+                                    <h4 class="template-title">
+                                       <i class="fa fa-map-marker text-danger fa-fw"></i>
+                                       A Quick tip
+                                    </h4>
+                                    <p>If you notice that your pet has difficulty moving, breathing, or lethargy, it is
+                                       possible that there is a problem, such as a stroke, for example, take it to the
+                                       doctor immediately</p>
+                                    <p class="m-t-20">
+                                       <img src="{%static '/img/gallery/gallery-5.jpg'%}" alt="">
+                                    </p>
+                                 </div>
+                                 <div class="timeline-likes">
+                                    <div class="stats-right">
+                                       <span class="stats-text">500 Shares</span>
+                                       <span class="stats-text">200 add this article to read list</span>
+                                    </div>
+                                    <div class="stats">
+                                       <span class="fa-stack fa-fw stats-icon">
+                                          <i class="fa fa-heart fa-stack-1x fa-inverse t-plus-1"
+                                             style="color: red;"></i>
+                                       </span>
+                                       <span class="fa-stack fa-fw stats-icon">
+                                          <i class="fa fa-thumbs-up fa-stack-1x fa-inverse" style="color: gray;"></i>
+                                       </span>
+                                       <span class="stats-total">4.3k</span>
+                                    </div>
+                                 </div>
+                                 <div class="timeline-footer">
+                                    <a href="javascript:;" class="m-r-15 text-inverse-lighter"><i
+                                          class="fa fa-thumbs-up "></i> Like</a>
+                                    <a href="javascript:;" class="m-r-15 text-inverse-lighter"><i
+                                          class="fa fa-list "></i>add to read list</a>
+                                    <a href="javascript:;" class="m-r-15 text-inverse-lighter"><i
+                                          class="fa fa-share "></i> Share</a>
+                                 </div>
+                              </div>
+                              <!-- end timeline-body -->
+                           </li>
+                           <li>
+                              <!-- begin timeline-icon -->
+                              <div class="timeline-icon">
+                                 <a href="javascript:;">&nbsp;</a>
+                              </div>
+                              <!-- end timeline-icon -->
+                              <!-- begin timeline-body -->
+                              <div class="timeline-body">
+                                 Loading...
+                              </div>
+                              <!-- begin timeline-body -->
+                           </li>
+                        </ul>
+                        <!-- end timeline -->
+                     </div>
+                     <!-- end #profile-post tab -->
+                  </div>
+                  <!-- end tab-content -->
+               </div>
+               <!-- end profile-content -->
+            </div>
+         </div>
+      </div>
+   </div>
+   </br>
+   </br>
+
+   <div class="sub-footer2">
+      </br>
+      <p style="margin-top: 10;">Copyright &copy; 2021 PETCY team</p>
+   </div>
+
+
+   <!-- jQuery -->
+	<script src="{%static '/js/jquery-2.1.0.min.js'%}"></script>
+
+	<!-- Bootstrap -->
+	<script src="{%static '/js/popper.js'%}"></script>
+	<script src="{%static '/js/bootstrap.min.js'%}"></script>
+
+	<!-- Plugins -->
+	<script src="{%static '/js/owl-carousel.js'%}"></script>
+	<script src="{%static '/js/scrollreveal.min.js'%}"></script>
+	<script src="{%static '/js/waypoints.min.js'%}"></script>
+	<script src="{%static '/js/jquery.counterup.min.js'%}"></script>
+	<script src="{%static '/js/imgfix.min.js'%}"></script>
+
+	<!-- Global Init -->
+	<script src="{%static '/js/custom.js'%}"></script>
+</body>
+
+</html>

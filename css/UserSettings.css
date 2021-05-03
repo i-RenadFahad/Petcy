@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,900|Montserrat|Roboto");
+
+
+.containerU{
+background: #fff;
+width: 540px;
+height: 450px;
+margin: 0 auto;
+position: relative;
+box-shadow: 2px 5px 28px;
+
+}
+
+.leftbox{
+float: left;
+top: -5%;
+left: 5%;
+position:absolute;
+width: 15%;
+height: 110%;
+background:#ff5b57!important;
+box-shadow: 3px 3px 10px;
+border: 0.1em solid #fff;
+}
+
+
+.rightbox {
+    width: 100%;
+    margin-left: 27%;
+    padding-top:-0.00000009px;
+ }
+ 
+
+
+.nav1 a{
+list-style: none;
+padding: 35px;
+color: #fff;
+font-size: 1.1em;
+display:block;
+transition: all .3s ease-in-out;
+}
+
+.nav1 a:hover {
+color:  #FC3;
+cursor: pointer;
+transform: scale(1.2);
+}
+
+.nav1 a:first-child{
+   margin-top: 7px;
+}
+
+.nav1 a.active{
+color: #FC3;
+}
+
+.tabShow {
+    transition: all 0.5s ease-in;
+    width: 80%;
+    padding-top:-40%;
+}
+
+h1{
+    font-family: "Montserrat", sans, serif;
+    color: #FC3;
+    font-size: 1.2rem;
+    margin-top: 150px;
+    margin-bottom:35px ;
+}
+
+h2{
+   color: #777;
+   font-family: "Roboto", sans-serif;
+   text-transform: uppercase;
+   font-size: 8px;
+   margin-left: 2px;
+   margin-top: 10px;
+}
+
+.input {
+border: 0;
+border-bottom: 1px solid #ca6019;
+width: 80%;
+font-family: 'Montserrat', sans-serif;
+font-size: .7em;
+padding: 7px 0;
+color: #070707;
+outline: none
+}
+
+.sp {
+    border: 0;
+    border-bottom: 1px solid #ca6019;
+    width: 80%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .7em;
+    padding: 7px 0;
+    color: #070707;
+    outline: none
+    }
+
+
+.btn{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    border:0;
+    color: #fff; 
+    background:  #FC3;
+    padding: 7px 15px;
+    box-shadow: 0px 2px 4px 0px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.RB{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    border:0;
+    color: #fff; 
+    background:  #FC3;
+    box-shadow: 0px 2px 4px 0px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.postT{
+    width: 85%;
+}
+
+tr{
+box-shadow: 3px 3px 10px;
+}
+
+

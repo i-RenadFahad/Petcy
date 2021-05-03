@@ -1,0 +1,477 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="TemplateMo">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
+		rel="stylesheet">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+	<title>PETCY</title>
+
+	<!-- Additional CSS Files -->
+	<link rel="stylesheet" type="text/css" href="{%static '/css/bootstrap.min.css'%}">
+	<link rel="stylesheet" type="text/css" href="{%static '/css//logInSt.css'%}">
+	<link rel="stylesheet" type="text/css" href="{%static '/css/font-awesome.css'%}">
+	<link rel="stylesheet" href="{%static '/css/templatemo-lava.css'%}">
+	<link rel="stylesheet" href="{%static '/css/owl-carousel.css'%}">
+	<link rel="stylesheet" href="{%static '/css/DocST.css'%}">
+
+	<script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+	<!-- ***** Preloader Start ***** -->
+	<div id="preloader">
+		<div class="jumper">
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+	</div>
+	<!-- ***** Preloader End ***** -->
+
+
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <a href="{%url 'home-page'%}" class="logo" style="margin-left: 90px;">
+                            PETCY
+                        </a>
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav" style="margin-left: 100px;">
+                            <li style="margin-left: 63px;" class="scroll-to-section"><a href="{%url 'home-page'%}">Home</a></li>
+
+                            <li class="scroll-to-section"><a href="{%url 'home-page'%}">About Us</a>
+                            </li>
+                            <li class="submenu">
+                                <a href="{%url 'cat'%}">Pet </a>
+                                <ul>
+                                    <li><a href="{%url 'cat'%}"> Permanent adoption </a></li>
+                                    <li><a href="{%url 'catTakecare'%}"> Temporary adoption</a></li>
+                                </ul>
+                            </li>
+                            <li class="submenu">
+                                <a href="{%url 'signup'%}">Register </a>
+                                <ul>
+                                    <li><a href="{%url 'login'%}">Log in <i class="fa fa-user-plus "></i></a></li>
+                                    <li><a href="{%url 'signup'%}">Sign up <i class="fa fa-sign-in-alt "></i></a></li>
+                                </ul>
+                            </li>
+                            <li class="scroll-to-section"><a href="{%url 'vet'%}">veterinarians</a> </li>
+                            <li class="scroll-to-section"><a href="#contact-us">Contact Us</a></li>
+                        </ul>
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+	<div class="right-image-decor"></div>
+
+
+	<section class="ftco-section bg-light">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-lg-3 ftco-animate">
+					<div class="staff">
+						<div class="img-wrap d-flex align-items-stretch">
+							<div class="img align-self-stretch">
+								<img src="{%static '/images/dr1.jpg'%}" width="290" height="350">
+							</div>
+						</div>
+						<div class="text pt-3 px-3 pb-4 text-center">
+							<h3>Lloyd Wilson</h3>
+							<span class="position mb-2">Pet Health veterinary</span>
+							<div class="faded">
+								<p>We must take care of the health of our pets in terms of eating, health training and
+									others</p>
+								<ul class="ftco-social text-center">
+									<li class="ftco-animate"><a href="{%url 'DocPersonalPage'%}"
+											class="d-flex align-items-center justify-content-center"><i
+												class="fas fa-id-badge"></i></a></li>
+									<li class="ftco-animate"><a href="#"
+											class="d-flex align-items-center justify-content-center"><i
+												class="fab fa-twitter"></i></a></li>
+									<li class="ftco-animate"><a href="#"
+											class="d-flex align-items-center justify-content-center"><i
+												class="fab fa-facebook-f"></i></i></a></li>
+									<li class="ftco-animate"><a href="#"
+											class="d-flex align-items-center justify-content-center"><i
+												class="fab fa-google"></i></a></li>
+									<li class="ftco-animate"><a href="#"
+											class="d-flex align-items-center justify-content-center"><i
+												class="fab fa-instagram"></i></a></li>
+
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3 ftco-animate">
+					<div class="staff">
+						<div class="img-wrap d-flex align-items-stretch">
+							<div class="img align-self-stretch">
+								<img src="{%static '/images/dr2.jpg'%}" width="290" height="350">
+							</div>
+						</div>
+						<div class="text pt-3 px-3 pb-4 text-center">
+							<h3>Rachel Parker</h3>
+							<span class="position mb-2">Pets psychiatrist veterinary</span>
+							<div class="faded">
+								<p>Pets, very sensitive beings that resemble humans, in the psychological state, we must
+									take care of them.</p>
+								<ul class="ftco-social text-center">
+									<li class="ftco-animate"><a href="#"
+											class="d-flex align-items-center justify-content-center"><i
+												class="fas fa-id-badge"></i></a></li>
+									<li class="ftco-animate"><a href="#"
+											class="d-flex align-items-center justify-content-center"><i
+												class="fab fa-twitter"></i></a></li>
+									<li class="ftco-animate"><a href="#"
+											class="d-flex align-items-center justify-content-center"><i
+												class="fab fa-facebook-f"></i></i></a></li>
+									<li class="ftco-animate"><a href="#"
+											class="d-flex align-items-center justify-content-center"><i
+												class="fab fa-google"></i></a></li>
+									<li class="ftco-animate"><a href="#"
+											class="d-flex align-items-center justify-content-center"><i
+												class="fab fa-instagram"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3 ftco-animate">
+					<div class="staff">
+						<div class="img-wrap d-flex align-items-stretch">
+							<div class="img align-self-stretch">
+								<img src="{%static '/images/D4.png'%}" width="290" height="350">
+							</div>
+						</div>
+						<div class="text pt-3 px-3 pb-4 text-center">
+							<h3>Ian Smith</h3>
+							<span class="position mb-2">Pet Health veterinary</span>
+							<div class="faded">
+								<p>We must take care of the health of our pets in terms of eating, health training and
+									others</p>
+								<ul class="ftco-social text-center">
+									<li class="ftco-animate"><a href="#"
+											class="d-flex align-items-center justify-content-center"><i
+												class="fas fa-id-badge"></i></a></li>
+									<li class="ftco-animate"><a href="#"
+											class="d-flex align-items-center justify-content-center"><i
+												class="fab fa-twitter"></i></a></li>
+									<li class="ftco-animate"><a href="#"
+											class="d-flex align-items-center justify-content-center"><i
+												class="fab fa-facebook-f"></i></i></a></li>
+									<li class="ftco-animate"><a href="#"
+											class="d-flex align-items-center justify-content-center"><i
+												class="fab fa-google"></i></a></li>
+									<li class="ftco-animate"><a href="#"
+											class="d-flex align-items-center justify-content-center"><i
+												class="fab fa-instagram"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3 ftco-animate">
+					<div class="staff">
+						<div class="img-wrap d-flex align-items-stretch">
+							<div class="img align-self-stretch">
+								<img src="{%static '/images/D3.png'%}" width="290" height="350">
+							</div>
+						</div>
+						<div class="text pt-3 px-3 pb-4 text-center">
+							<h3>Alicia Henderson</h3>
+							<span class="position mb-2">Pets psychiatrist veterinary</span>
+							<div class="faded">
+								<p>Pets, very sensitive beings that resemble humans, in the psychological state, we must
+									take care of them.</p>
+								<ul class="ftco-social text-center">
+									<li class="ftco-animate"><a href="#"
+											class="d-flex align-items-center justify-content-center"><i
+												class="fas fa-id-badge"></i></a></li>
+									<li class="ftco-animate"><a href="#"
+											class="d-flex align-items-center justify-content-center"><i
+												class="fab fa-twitter"></i></a></li>
+									<li class="ftco-animate"><a href="#"
+											class="d-flex align-items-center justify-content-center"><i
+												class="fab fa-facebook-f"></i></i></a></li>
+									<li class="ftco-animate"><a href="#"
+											class="d-flex align-items-center justify-content-center"><i
+												class="fab fa-google"></i></a></li>
+									<li class="ftco-animate"><a href="#"
+											class="d-flex align-items-center justify-content-center"><i
+												class="fab fa-instagram"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-lg-3 ftco-animate">
+					<div class="staff">
+						<div class="img-wrap d-flex align-items-stretch">
+							<div class="img align-self-stretch">
+								<img src="{%static '/images/dr5.jpg'%}" width="290" height="350">
+							</div>
+						</div>
+						<div class="text pt-3 px-3 pb-4 text-center">
+							<h3>Lloyd Wilson</h3>
+							<span class="position mb-2">Pets psychiatrist veterinary</span>
+							<div class="faded">
+								<p>Pets, very sensitive beings that resemble humans, in the psychological state, we must
+									take care of them.</p>
+								<ul class="ftco-social text-center">
+									<li class="ftco-animate"><a href="#"
+											class="d-flex align-items-center justify-content-center"><i
+												class="fas fa-id-badge"></i></a></li>
+									<li class="ftco-animate"><a href="#"
+											class="d-flex align-items-center justify-content-center"><i
+												class="fab fa-twitter"></i></a></li>
+									<li class="ftco-animate"><a href="#"
+											class="d-flex align-items-center justify-content-center"><i
+												class="fab fa-facebook-f"></i></i></a></li>
+									<li class="ftco-animate"><a href="#"
+											class="d-flex align-items-center justify-content-center"><i
+												class="fab fa-google"></i></a></li>
+									<li class="ftco-animate"><a href="#"
+											class="d-flex align-items-center justify-content-center"><i
+												class="fab fa-instagram"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3 ftco-animate">
+					<div class="staff">
+						<div class="img-wrap d-flex align-items-stretch">
+							<div class="img align-self-stretch">
+								<img src="{%static '/images/d6.png'%}" width="290" height="350">
+							</div>
+						</div>
+						<div class="text pt-3 px-3 pb-4 text-center">
+							<h3>Rachel Parker</h3>
+							<span class="position mb-2">Pet Health veterinary</span>
+							<div class="faded">
+								<p>We must take care of the health of our pets in terms of eating, health training and
+									others</p>
+								<ul class="ftco-social text-center">
+									<li class="ftco-animate"><a href="#"
+											class="d-flex align-items-center justify-content-center"><i
+												class="fas fa-id-badge"></i></a></li>
+									<li class="ftco-animate"><a href="#"
+											class="d-flex align-items-center justify-content-center"><i
+												class="fab fa-twitter"></i></a></li>
+									<li class="ftco-animate"><a href="#"
+											class="d-flex align-items-center justify-content-center"><i
+												class="fab fa-facebook-f"></i></i></a></li>
+									<li class="ftco-animate"><a href="#"
+											class="d-flex align-items-center justify-content-center"><i
+												class="fab fa-google"></i></a></li>
+									<li class="ftco-animate"><a href="#"
+											class="d-flex align-items-center justify-content-center"><i
+												class="fab fa-instagram"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3 ftco-animate">
+					<div class="staff">
+						<div class="img-wrap d-flex align-items-stretch">
+							<div class="img align-self-stretch">
+								<img src="{%static '/images/d7.png'%}" width="290" height="350">
+							</div>
+						</div>
+						<div class="text pt-3 px-3 pb-4 text-center">
+							<h3>Ian Smith</h3>
+							<span class="position mb-2">Pets psychiatrist veterinary</span>
+							<div class="faded">
+								<p>Pets, very sensitive beings that resemble humans, in the psychological state, we must
+									take care of them.</p>
+								<ul class="ftco-social text-center">
+									<li class="ftco-animate"><a href="#"
+											class="d-flex align-items-center justify-content-center"><i
+												class="fas fa-id-badge"></i></a></li>
+									<li class="ftco-animate"><a href="#"
+											class="d-flex align-items-center justify-content-center"><i
+												class="fab fa-twitter"></i></a></li>
+									<li class="ftco-animate"><a href="#"
+											class="d-flex align-items-center justify-content-center"><i
+												class="fab fa-facebook-f"></i></i></a></li>
+									<li class="ftco-animate"><a href="#"
+											class="d-flex align-items-center justify-content-center"><i
+												class="fab fa-google"></i></a></li>
+									<li class="ftco-animate"><a href="#"
+											class="d-flex align-items-center justify-content-center"><i
+												class="fab fa-instagram"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3 ftco-animate">
+					<div class="staff">
+						<div class="img-wrap d-flex align-items-stretch">
+							<div class="img align-self-stretch">
+								<img src="{%static '/images/d8.png'%}" width="290" height="350">
+							</div>
+						</div>
+						<div class="text pt-3 px-3 pb-4 text-center">
+							<h3>Fred Henderson</h3>
+							<span class="position mb-2">Pet Health veterinary</span>
+							<div class="faded">
+								<p>We must take care of the health of our pets in terms of eating, health training and
+									others</p>
+								<ul class="ftco-social text-center">
+									<li class="ftco-animate"><a href="#"
+											class="d-flex align-items-center justify-content-center"><i
+												class="fas fa-id-badge"></i></a></li>
+									<li class="ftco-animate"><a href="#"
+											class="d-flex align-items-center justify-content-center"><i
+												class="fab fa-twitter"></i></a></li>
+									<li class="ftco-animate"><a href="#"
+											class="d-flex align-items-center justify-content-center"><i
+												class="fab fa-facebook-f"></i></i></a></li>
+									<li class="ftco-animate"><a href="#"
+											class="d-flex align-items-center justify-content-center"><i
+												class="fab fa-google"></i></a></li>
+									<li class="ftco-animate"><a href="#"
+											class="d-flex align-items-center justify-content-center"><i
+												class="fab fa-instagram"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	
+<!-- ***** Footer Start ***** -->
+<footer id="contact-us">
+    <div class="container">
+      <div class="footer-content">
+        <div class="row">
+          <!-- ***** Contact Form Start ***** -->
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="contact-form">
+              <form id="contact" action="" method="post">
+                <div class="row">
+                  <div class="col-md-6 col-sm-12">
+                    <fieldset>
+                      <input name="name" type="text" id="name" placeholder="Full Name" required=""
+                        style="background-color: rgba(250,250,250,0.3);">
+                    </fieldset>
+                  </div>
+                  <div class="col-md-6 col-sm-12">
+                    <fieldset>
+                      <input name="email" type="text" id="email" placeholder="E-Mail Address" required=""
+                        style="background-color: rgba(250,250,250,0.3);">
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-12">
+                    <fieldset>
+                      <textarea name="message" rows="6" id="message" placeholder="Your Message" required=""
+                        style="background-color: rgba(250,250,250,0.3);"></textarea>
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-12">
+                    <fieldset>
+                      <button type="submit" id="form-submit" class="main-button">Send Message
+                        Now</button>
+                    </fieldset>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <!-- ***** Contact Form End ***** -->
+          <div class="right-content col-lg-6 col-md-12 col-sm-12">
+            <h2>To Contact with <em>PETCY</em></h2>
+            <p>Because customers' needs and their opinions matter to us, you can contact with patcy
+              administration by sending us a message
+            </p>
+            <P>And you can follow us on Social media </P>
+            <ul class="social">
+              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+						<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+						<li><a href="#"><i class="fa fa-rss"></i></a></li>
+						<li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="sub-footer">
+            <p>Copyright &copy; 2021 PETCY team</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  
+	<script src="assets/jsV/jquery.min.js"></script>
+	<script src="assets/jsV/jquery-migrate-3.0.1.min.js"></script>
+	<script src="assets/jsV/popper.min.js"></script>
+	<script src="assets/jsV/bootstrap.min.js"></script>
+	<script src="assets/jsV/jquery.easing.1.3.js"></script>
+	<script src="assets/jsV/jquery.waypoints.min.js"></script>
+	<script src="assets/jsV/jquery.stellar.min.js"></script>
+	<script src="assets/jsV/jquery.animateNumber.min.js"></script>
+	<script src="assets/jsV/bootstrap-datepicker.js"></script>
+	<script src="assets/jsV/jquery.timepicker.min.js"></script>
+	<script src="assets/jsV/owl.carousel.min.js"></script>
+	<script src="assets/jsV/jquery.magnific-popup.min.js"></script>
+	<script src="assets/jsV/scrollax.min.js"></script>
+	<script
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+	<script src="assets/jsV/google-map.js"></script>
+	<script src="assets/jsV/main.js"></script>
+
+	<!-- jQuery -->
+	<script src="{%static '/js/jquery-2.1.0.min.js'%}"></script>
+
+	<!-- Bootstrap -->
+	<script src="{%static '/js/popper.js'%}"></script>
+	<script src="{%static '/js/bootstrap.min.js'%}"></script>
+
+	<!-- Plugins -->
+	<script src="{%static '/js/owl-carousel.js'%}"></script>
+	<script src="{%static '/js/scrollreveal.min.js'%}"></script>
+	<script src="{%static '/js/waypoints.min.js'%}"></script>
+	<script src="{%static '/js/jquery.counterup.min.js'%}"></script>
+	<script src="{%static '/js/imgfix.min.js'%}"></script>
+
+	<!-- Global Init -->
+	<script src="{%static '/js/custom.js'%}"></script>
+
+
+
+</body>
+
+</html>

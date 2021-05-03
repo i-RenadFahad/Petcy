@@ -1,0 +1,123 @@
+body{
+
+    background-color:#fff;
+}
+
+    /*------------------------------------*/
+    .ftco-section {
+        padding: 7em 0;
+        position: relative; }
+        @media (max-width: 767.98px) {
+          .ftco-section {
+            padding: 6em 0; } }
+
+            p{
+              color: #000;
+            }
+            .staff {
+                overflow: hidden;
+                border-radius: 4px;
+                margin-bottom: 30px;
+                -webkit-box-shadow: 0px 24px 48px -13px rgba(0, 0, 0, 0.05);
+                -moz-box-shadow: 0px 24px 48px -13px rgba(0, 0, 0, 0.05);
+                box-shadow: 0px 24px 48px -13px rgba(0, 0, 0, 0.05);
+                -moz-transition: all 0.3s ease;
+                -o-transition: all 0.3s ease;
+                -webkit-transition: all 0.3s ease;
+                -ms-transition: all 0.3s ease;
+                transition: all 0.3s ease; }
+                .staff .img-wrap {
+                  height: 300px; }
+                .staff .img {
+                  width: 100%;
+                  display: block;
+                  background-position: top center;
+                  -moz-transition: all 0.3s ease;
+                  -o-transition: all 0.3s ease;
+                  -webkit-transition: all 0.3s ease;
+                  -ms-transition: all 0.3s ease;
+                  transition: all 0.3s ease; }
+                .staff .text {
+                  position: relative;
+                  background: #fff;
+                  -moz-transition: all 0.3s ease;
+                  -o-transition: all 0.3s ease;
+                  -webkit-transition: all 0.3s ease;
+                  -ms-transition: all 0.3s ease;
+                  transition: all 0.3s ease; }
+                  .staff .text h3 {
+                    font-size: 18px;
+                    font-weight: 700;
+                    margin-bottom: 0;
+                    -moz-transition: all 0.3s ease;
+                    -o-transition: all 0.3s ease;
+                    -webkit-transition: all 0.3s ease;
+                    -ms-transition: all 0.3s ease;
+                    transition: all 0.3s ease;
+                    color: #000000;
+                    margin-bottom: 5px; }
+                  .staff .text .position {
+                    color: #fa4299 ;
+                    display: block;
+                    font-weight: 600;
+                    display: inline-block;
+                    margin-bottom: 10px;
+                    font-size: 14px; }
+                  .staff .text .faded {
+                    opacity: 1;
+                  color:rgb(7, 6, 6);
+                  }
+                .staff .ftco-social {
+                  position: absolute;
+                  top: -50px;
+                  left: 0;
+                  right: 0;
+                  padding: 15px 10px;
+                  background: transparent;
+                  opacity: 0;
+                  -moz-transition: all 0.3s ease;
+                  -o-transition: all 0.3s ease;
+                  -webkit-transition: all 0.3s ease;
+                  -ms-transition: all 0.3s ease;
+                  transition: all 0.3s ease; }
+                  .staff .ftco-social li {
+                    width: 30px;
+                    height: 30px;
+                    position: relative; }
+                    .staff .ftco-social li a {
+                      color: rgb(7, 6, 6);
+                      width: 30px;
+                      height: 30px;
+                      background: #fba70b ;
+                      background: #fa4299;
+                      background: -moz-linear-gradient(45deg, #ffc14e  20%, #fa4299 100%);
+                      background: -webkit-gradient(left bottom, right top, color-stop(0%, #ffc14e), color-stop(100%, #fa4299));
+                      background: -webkit-linear-gradient(45deg, #ffc14e 20%, #fa4299 100%);
+                      background: -o-linear-gradient(45deg, #ffc14e 20%, #fa4299 100%);
+                      background: -ms-linear-gradient(45deg, #ffc14e 20%, #fa4299 100%);
+                      background: linear-gradient(45deg, #ffc14e 20%, #fa4299 100%);
+                      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#207dff', endColorstr='#00bd55', GradientType=1 );
+                      -webkit-border-radius: 50%;
+                      -moz-border-radius: 50%;
+                      -ms-border-radius: 50%;
+                      border-radius: 50%; }
+                .staff:hover, .staff:focus {
+                  -webkit-box-shadow: 0px 24px 48px -13px rgba(0, 0, 0, 0.11);
+                  -moz-box-shadow: 0px 24px 48px -13px rgba(0, 0, 0, 0.11);
+                  box-shadow: 0px 24px 48px -13px rgba(0, 0, 0, 0.11); }
+                  .staff:hover .ftco-social, .staff:focus .ftco-social {
+                    opacity: 1;
+                    top: -60px; }
+                  .staff:hover .img, .staff:focus .img {
+                    margin-top: -10px; }
+                  .staff:hover .text, .staff:focus .text p {
+                    background: #ffc14e ;
+                    color: #fff }
+                    .staff:hover .text h3, .staff:focus .text h3 {
+                      color: #fff }
+                    .staff:hover .text p .position, .staff:focus .text .position {
+                      color: #fff }
+
+                      .bg-light {
+                        background-color: #fff !important;
+                    }

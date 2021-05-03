@@ -1,0 +1,320 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="TemplateMo">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
+        rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <title>PETCY</title>
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="{%static '/css/templatemo-lava.css'%}">
+    <link rel="stylesheet" href="{%static '/css/UserSettings.css'%}">
+
+   
+	<link rel="stylesheet" type="text/css" href="{%static '/css/font-awesome.css'%}">
+	
+
+
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!-- ***** Preloader End ***** -->
+
+
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <a href="{%url 'home-page'%}" class="logo" style="margin-left: 90px;">
+                            PETCY
+                        </a>
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav" style="margin-left: 100px;">
+                            <li style="margin-left: 63px;" class="scroll-to-section"><a href="{%url 'home-page'%}">Home</a></li>
+
+                            <li class="scroll-to-section"><a href="{%url 'home-page'%}">About Us</a>
+                            </li>
+                            <li class="submenu">
+                                <a href="{%url 'cat'%}">Pet </a>
+                                <ul>
+                                    <li><a href="{%url 'cat'%}"> Permanent adoption </a></li>
+                                    <li><a href="{%url 'catTakecare'%}"> Temporary adoption</a></li>
+                                </ul>
+                            </li>
+                            <li class="submenu">
+                                <a href="{%url 'signup'%}">Register </a>
+                                <ul>
+                                    <li><a href="{%url 'login'%}">Log in <i class="fa fa-user-plus "></i></a></li>
+                                    <li><a href="{%url 'signup'%}">Sign up <i class="fa fa-sign-in-alt "></i></a></li>
+                                </ul>
+                            </li>
+                            <li class="scroll-to-section"><a href="{%url 'vet'%}">veterinarians</a> </li>
+                            <li class="scroll-to-section"><a href="{%url 'home-page'%}">Contact Us</a></li>
+                        </ul>
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+
+
+
+
+    <div class="containerU">
+        <div class="leftbox">
+            <nav class="nav1">
+                <a onclick="tabs(0)" class="tab"><i class="far fa-id-badge"></i></a>
+
+                <a onclick="tabs(1)" class="tab"><i class="fas fa-cogs"></i></a>
+
+                <a onclick="tabs(2)" class="tab"><i class="far fa-credit-card"></i></a>
+
+                <a onclick="tabs(3)" class="tab"><i class="far fa-images"></i></a>
+
+                <a onclick="tabs(4)" class="tab"><i class="far fa-list-alt"></i></a>
+
+            </nav>
+        </div>
+
+        <div class="rightbox">
+            <div class="profile tabShow">
+
+                <h1></br></br>Personal Info </h1>
+                <h2> Full Name </h2>
+                <input types=" text " class="input" value=" Jane Doe ">
+                <h2> Birthday </h2>
+                <input type=" text " class="input" values=" April 20 , 1992 ">
+                <h2> Gender </h2>
+                <input type=" text " class="input" value=" Female ">
+                <h2> Email </h2>
+                <input type=" text " class="input" value=" example@example.com ">
+                <h2> Password </h2>
+                <input type=" password " class="input" values=" brightcode ">
+                <button class="btn"> Update </button>
+            </div>
+            <div class="Setting tabShow">
+                <h1></br></br></br> Account Settings </h1>
+                <h2> Sync WatchList </h2>
+                <h2> Hold Subscription </h2>
+                <p class="sp"> </p>
+                <h2> Cancel Subscription </h2>
+                <p class="sp"> </p>
+                <h2> Your Devices </h2>
+                <p class="sp"> </p>
+                <h2> Referrals </h2>
+                <p class="sp"> </p>
+                <button class="btn"> Update </button>
+            </div>
+            <div class="payment tabShow">
+                <h1></br></br> Payment Info </h1>
+                <h2> Payment Method </h2>
+                <input type=" text " class=" input " value=" MasterCard - 0202 ** ** 7336 ">
+                <h2> Billing Address </h2>
+                <input type=" text " class=" input " value=" 1234 some street in a town ">
+                <h2> ZipCode </h2>
+                <input type=" text " class=" input " value=" 419911 ">
+                <h2> Billing Date </h2>
+                <input type=" text " class=" input " value=" Jan 20 , 2017 ">
+                <h2> Redeem Card </h2>
+                <input type=" password " class=" input " value=" Enter Gift Code ">
+                <button class=" btn "> Update </button>
+            </div>
+
+            <div class="post tabShow">
+                <h1></br></br>Your Post </h1>
+                <table class="postT">
+                    <tr>
+                        <th><img src="{%static '/images/bombay-detail.jpg'%}" width="70" height="120">
+                        </th>
+                        <th>
+                            <h2> pet name: loui</h2>
+                            <h2>5 years</h2>
+                            <h2> type:bombay</h2>
+                            <h2>health state:healthy pet</h2>
+                            <h2>Permanent adoption</h2>
+                        </th>
+                        <th>
+                            <h2> you get 5 request</h2>
+                            <button class="RB"> show all request </button></br>
+                            <button class="RB" style="background: #ff5b57;"> delet post </button></br>
+                            <h2>date:04/05/2021</h2>
+                        </th>
+                    </tr>
+                    <tr>
+                    </tr>
+                    <tr>
+                    </tr>
+                    <tr>
+                    </tr>
+                    <tr>
+                    </tr>
+                    <tr>
+                    </tr>
+                    <tr>
+                    </tr>
+                    <tr>
+                        <th><img src="{%static '/images/Dutch-Shepherd-482x260.png'%}" width="70" height="120">
+                        </th>
+                        <th>
+                            <h2> pet name: Johnny</h2>
+                            <h2>5 years</h2>
+                            <h2> type:Dutch Shepherd</h2>
+                            <h2>health state:healthy pet</h2>
+                            <h2>Temporary adoption </h2>
+                        </th>
+                        <th>
+                            <h2> you get 2 request</h2>
+                            <button class="RB"> show all request </button></br>
+                            <button class="RB" style="background: #ff5b57;"> delet post </button>
+                            </br>
+                            <h2>date:03/20/2021</h2>
+                        </th>
+                    </tr>
+                </table>
+            </div>
+
+
+            <div class="rec tabShow">
+                <h1></br></br>Your request</h1>
+                <table class="postT">
+                    <tr>
+                        <th><img src="{%static '/images/Canary.jpg'%}" width="70" height="120">
+                        </th>
+                        <th>
+                            <h2> pet name: Lora</h2>
+                            <h2>2 month</h2>
+                            <h2> type:Canary</h2>
+                            <h2>health state:has dust sensitivty</h2>
+                            <h2>Permanent adoption</h2>
+                        </th>
+                        <th>
+                            <h2> request state : in progress</h2>
+                            <button class="RB"> show more details </button></br>
+                            <button class="RB" style="background: #ff5b57;"> delet request </button></br>
+                            <h2>date:04/01/2021</h2>
+                        </th>
+                    </tr>
+                    <tr>
+                    </tr>
+                    <tr>
+                    </tr>
+                    <tr>
+                    </tr>
+                    <tr>
+                    </tr>
+                    <tr>
+                    </tr>
+                    <tr>
+                    </tr>
+                    <tr>
+                        <th><img src="{%static '/images/abyssinian-detail.jpg'%}" width="70" height="120">
+                        </th>
+                        <th>
+                            <h2> pet name: bow</h2>
+                            <h2>4 years</h2>
+                            <h2> type:abyssinian</h2>
+                            <h2>health state:healthy pet</h2>
+                            <h2>Temporary adoption </h2>
+                        </th>
+                        <th>
+                            <h2> request state : adoption</h2>
+                            <button class="RB"> show more details </button></br>
+                            <button class="RB" style="background: #ff5b57;"> delet request </button></br>
+                            <h2>date:01/05/2021</h2>
+                        </th>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    </br>
+    </br>
+    </br></br></br>
+
+
+
+
+    <div class="sub-footer">
+        </br>
+        <p>Copyright &copy; 2021 PETCY team</p>
+    </div>
+
+
+    
+    <script src="jquery/jquery.js"></script>
+    <script>
+        const tabbtn = document.querySelectorAll(".tab");
+        const tab = document.querySelectorAll(".tabShow");
+        function tabs(panelIndex) {
+            tab.forEach(function (node) {
+                node.style.display =
+                    "none";
+            });
+            tab[panelIndex].style.display =
+                "block";
+        }
+        tabs(0);
+    </script>
+
+    <script>
+        $(".tab").click(function () {
+            $(this).addClass("active").siblin
+            gs().removeClass("active");
+        })
+    </script>
+
+
+
+
+    <!-- jQuery -->
+    <script src="{%static '/js/jquery-2.1.0.min.js'%}"></script>
+
+    <!-- Bootstrap -->
+    <script src="{%static '/js/popper.js'%}"></script>
+    <script src="{%static '/js/bootstrap.min.js'%}"></script>
+
+    <!-- Plugins -->
+    <script src="{%static '/js/owl-carousel.js'%}"></script>
+    <script src="{%static '/js/scrollreveal.min.js'%}"></script>
+    <script src="{%static '/js/waypoints.min.js'%}"></script>
+    <script src="{%static '/js/jquery.counterup.min.js'%}"></script>
+    <script src="{%static '/js/imgfix.min.js'%}"></script>
+
+    <!-- Global Init -->
+    <script src="{%static '/js/custom.js'%}"></script>
+
+
+
+</body>
+
+</html>
